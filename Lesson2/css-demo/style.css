@@ -2,6 +2,31 @@
 Comments are only to help PEOPLE read a code file. The
 computer ignores them.
 */
+
+*{
+  -webkit-box-sizing: border-box; /* Safari support */
+  -moz-box-sizing: border-box;    /* Firefox support */
+  -ms-box-sizing: border-box;     /* IE support */
+  box-sizing: border-box;
+}
+
+* {
+   outline: 1px solid red !important;
+}
+
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
+
 .description {
   color: red;
+}
+
+.screenshot {
+  max-width: 460px
+}
+
+.description {
+  max-width: 705px
 }
